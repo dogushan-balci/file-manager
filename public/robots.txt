@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /config/
+Disallow: /src/
+Disallow: /database/
+Disallow: /uploads/
+Disallow: /*.php$
+Allow: /index.php
+Allow: /login.php
+Allow: /logout.php
+Allow: /settings.php
+Allow: /download.php
+Sitemap: http://localhost/php-file-manager/public/sitemap.xml 
